@@ -203,3 +203,9 @@ span {
     }
     
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .overlay:hover, .user-details span:hover, h1:hover {
+        transition: none;
+    }
+}
