@@ -58,7 +58,7 @@ body {
 
 .card {
     max-width: 20em;
-    margin-inline: auto;
+    /* margin-inline: auto; */
     margin-block-start: var(--padding-a);
     margin-block-end: var(--margin-a);
     padding: var(--padding-b);
@@ -167,6 +167,12 @@ span {
 
 .attribution a {
     color: var(--clr-primary-blue-500);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: var(--clr-primary-cyan-400);
+    text-decoration: underline;
 }
 
 
@@ -175,6 +181,10 @@ span {
     .container {
         justify-content: center;
         height: 100dvh;
+    }
+
+    .card {
+        max-width: 25em;
     }
 
     h1 {
